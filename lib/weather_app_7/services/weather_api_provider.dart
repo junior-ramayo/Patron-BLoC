@@ -2,7 +2,7 @@ import 'package:http/http.dart' as http;
 
  class WeatherDataProvider {
 
-  final String API_KEY = "817bfff03c584be09809cfd80c8428e1";
+  final String API_KEY = "";
     
   Future<http.Response> getRawWeatherData(String city) async {
    http.Response rawWeatherData = await http.get(
@@ -15,4 +15,4 @@ import 'package:http/http.dart' as http;
    
  }
 
- //https://api.openweathermap.org/data/2.5/weather?q=merida&appid=817bfff03c584be09809cfd80c8428e1&units=metric
+ 
