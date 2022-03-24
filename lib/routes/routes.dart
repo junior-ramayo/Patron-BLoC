@@ -5,6 +5,7 @@ import 'package:flutter_bloc_ejemplos/ejemplo_fecth_api_6/views/covid_view.dart'
 import 'package:flutter_bloc_ejemplos/empleados_ejemplo_3/views/empleados_view.dart';
 import 'package:flutter_bloc_ejemplos/joke_ejemplo_8/services/joke_repository.dart';
 import 'package:flutter_bloc_ejemplos/joke_ejemplo_8/views/joke_view.dart';
+import 'package:flutter_bloc_ejemplos/movies_bloc/views/home_movie.dart';
 import 'package:flutter_bloc_ejemplos/productos_ejemplo_2/views/productos_view.dart';
 import 'package:flutter_bloc_ejemplos/user_home/user_view.dart';
 import 'package:flutter_bloc_ejemplos/user_home/user_view2.dart';
@@ -25,6 +26,7 @@ import 'package:flutter_bloc_ejemplos/weather_app_7/views/weather_view.dart';
                                             create: (context) => JokeRepository(),
                                             child: JokeView(),
                                            ),
+    'movie_view': (BuildContext context) => HomeMovies(),
    };
   }
  }
