@@ -14,6 +14,7 @@ import 'package:flutter/material.dart';
       _card('productos_view', 'Productos', context),
       _card('userscrud_view', 'CRUD Api BLoC', context),
       _card('empleados_view', 'Empleados', context),
+      _card('user_home', 'Users', context),
       _card('counter_view', 'Counter', context),
       _card('covid_view', 'Covid', context),
       _card('weather_view', 'Weather', context),
