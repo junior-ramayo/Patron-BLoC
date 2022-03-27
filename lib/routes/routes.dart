@@ -11,11 +11,13 @@ import 'package:flutter_bloc_ejemplos/examples/user_home/user_view.dart';
 import 'package:flutter_bloc_ejemplos/examples/user_home/user_view2.dart';
 import 'package:flutter_bloc_ejemplos/examples/users_bloc_crud_api/views/userscrud_home.dart';
 import 'package:flutter_bloc_ejemplos/examples/weather_app_7/views/weather_view.dart';
+import 'package:flutter_bloc_ejemplos/home/home_main.dart';
 
 
  class RoutesApp {
   getRoutes(){
    return {
+    'home_main': (BuildContext context) => const HomeMain(),
     'user_home': (BuildContext context) => const UserView(),
     'pagina2': (BuildContext context) => const UserView2(),
     'productos_view': (BuildContext context) => ProductosView(),
